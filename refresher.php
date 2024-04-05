@@ -277,7 +277,7 @@ curl_close($ch);
                 echo "<div class='main-input'>" . $T . "</div>";
                 echo "<button type='button' id='copyButton' class='main-button' onclick='copyContent()'>Copy</button>";
             } else {
-                echo "<div class='main-input'>Invalid Content</div>";
+                echo "<div class='main-input'>Invalid Cookie</div>";
             }
         } else {
             echo "Unknown Error";
